@@ -1,0 +1,13 @@
+
+<div>
+    Input your Number : 
+    <input type="text" #txtnum >
+    <button (click)="addNumber(txtnum.value)"> Add Number</button>
+</div>
+
+<div>
+<ul>
+    <li *ngFor="let data of myList1"> {{data}}</li>
+</ul>
+
+</div>
